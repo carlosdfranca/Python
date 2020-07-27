@@ -1,0 +1,6 @@
+print('==========Desafio 15==========')
+print('Pagemento do aluguel do carro.')
+d = float(input('Quantos dias você permaneceu com o Carro? '))
+k = float(input('Quantos Km você rodou com ele? '))
+pt = (d * 60) + (k * 0.15)
+print('Você deve pagar {:.1f} pelo aluguel do carro.'.format(pt))

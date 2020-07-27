@@ -1,0 +1,6 @@
+nome = input('Digite o seu nome:').strip()
+nspc = nome.split()
+print('Nome todo em maiúsculas:{}'.format(nome.upper()))
+print('Nome todo em minúsculas:{}'.format(nome.lower()))
+print('Seu nome tem ao todo {} letras'.format(len(nome) - nome.count(' ')))
+print('Seu primeiro nome é {} e a soma das letras dele é: {}'.format(nspc[0],len(nspc[0])))
